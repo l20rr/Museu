@@ -161,20 +161,20 @@ button{
 #footer_info{
     width: 100%;
     background-color: rgb(43, 43, 43);
-    height: 300px;
-    margin-top: 220px;
+    height: 200px;
+    margin-top: 90px;
     
 }
 
 
 .container-ex{
     max-width: 22%;
-    margin: 50px auto;
-    margin-left: 2%;
+    margin: 30px auto;
+    margin-left: 80px;
 }
 
 #extra_container{
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 
