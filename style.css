@@ -1,0 +1,240 @@
+ /****Trabalho feito por Mariana e Lucas****/
+/******Geral***/
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+p,li{
+    color: #676767;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+a{
+    color: #CB1B00;
+}
+.container>a{
+    color: #900;
+}
+body{
+    
+    background-color: black;
+}
+
+
+
+/****Header*****/
+#nav{
+    margin-top: 0px;
+    float: right;
+    margin-right: 20%;
+}
+.li{
+    float: left;
+    margin: 2px;
+    padding: 30px;
+    height: 105px;
+    cursor: pointer;
+}
+.li1{
+    background-color: #CB1B00;
+}
+.li>p{
+    margin: 80px auto;
+    color: white;
+}
+
+.li:hover{
+    background-color: #CB1B00;
+}
+
+
+
+img{
+
+    z-index: -1;
+    margin-left: 10%;
+}
+
+
+
+
+/*******Main****/
+.container{
+    max-width: 35%;
+    margin: 10px auto;
+}
+.container>h2{
+    color: #CB1B00;
+    font-size: 1.8rem;
+    
+
+}
+
+#titulo{
+    margin-left: 32%;
+    margin-bottom: 3%;
+    margin-top: -10%;
+  }
+  #titulo > h1{
+      color: #CB1B00;
+      font-size: 2.2rem;
+  }
+  
+  #titulo> h3{
+      font-size: 0.9rem;
+      color: gray;
+  }
+  
+
+.container > p {
+    margin: 20px;
+}
+
+.data{
+   
+   float: left;
+
+    width: 300px;
+ 
+}
+
+.data1{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.geral{
+    color:  #676767;
+    max-width: 80%;
+}
+
+
+
+ /***Parte da direita -> Aside*****/
+#inp{
+    float: right;
+    max-width: 20%;
+    color: black;
+    height: 470px;
+}
+button{
+    color: black;
+    cursor: pointer;
+    margin-bottom: 5%;
+    width: 60px;
+    background-color: gray;
+}
+
+.f_direita>h3{
+    color: #CB1B00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.f_direita{
+    line-height: 32px;
+    color:  #676767;
+}
+
+.f_direita > ul li:hover {
+    color:  #900; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+/***footer-info -> extra***/
+#footer_info{
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    height: 300px;
+    margin-top: 220px;
+    
+}
+
+
+.container-ex{
+    max-width: 22%;
+    margin: 50px auto;
+    margin-left: 2%;
+}
+
+#extra_container{
+    margin-left: 25%;
+}
+
+
+
+.extra>h3{
+    font-size: 1.3rem;
+}
+
+.extra{
+ 
+    float: left;
+
+}
+
+
+.extra>ul li {
+    list-style-type:disc; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.extra>ul li a {
+   text-decoration: none;
+}
+
+
+
+
+
+
+/****footer***/
+
+footer{
+    margin-left: 35%; 
+    padding: 20px;
+}
+
+
+
+span{
+    width: 200px;
+    
+    float: left;
+    margin-top: 20px;
+}
+
+a {
+    color: #B0371E; 
+    text-decoration: none;
+}
+
+
+
+ul li a:hover{ 
+    color:  #900; 
+    text-decoration: underline;
+}
+
+a:active { 
+    color: #900;
+    text-decoration: underline; 
+}
